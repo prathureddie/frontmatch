@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SuperOver</title>
     <link rel="stylesheet" href="style.css">
-   
+  
     </head>
 <body>
-    <!-- <h1>Hey ProGrad</h1>
+    <!-- <h1>Hey BUDDY</h1>
     <h6>Hey Everyone</h6> -->
     <div class="container">
         <div class="row">
             <div class="col">
-                <img src="D:/frontmatch/assets/csk.png" class="pic" alt="csk" width="150px" height="150px">
-                <p class="name"> Team 1</p>
-                <div class="row runs">
+                <img src="assets/csk.png" class="pic" alt="csk" width="150px" height="150px">
+                <p class="name" id="team1name"> Team 1</p>
+                <div class="row runs" id="team1runs">
                     <div>-</div>
                     <div>-</div>
                     <div>-</div>
@@ -24,13 +24,17 @@
                     <div>-</div>
                 </div>
             </div>
-            <div class="score">
-            Score : 0-0
+            <div class="col">
+                <div class="row score">
+           <div id="team1score">0</div>
+           <div>-</div>
+           <div id="team2score">0</div>
+           </div>
             </div>
             <div class="col">
-                <img src="D:/frontmatch/assets/rcb.png" class="pic" alt="rcb" width="150px" height="150px">
-                <p class="name">Team2</p>
-                <div class=" row runs">
+                <img src="assets/RCB.png" class="pic" alt="MI" width="150px" height="150px">
+                <p class="name" id="team2name">Mumbai Indians</p>
+                <div class=" row runs" id="team2runs">
                     <div>-</div>
                     <div>-</div>
                     <div>-</div>
@@ -43,7 +47,8 @@
         <div class="row">
             <button id="strikebutton" onclick="handlestrike()">Submit</button>
         </div>
+        <div id="result"></div>
     </div>
-    <script src="app.js"> </script>
+    <script src="app.js"></script>
 </body>
 </html>

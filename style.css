@@ -73,3 +73,11 @@ body{
     border-radius: 25px;
     outline: none;
 }
+#result{
+    font-size: xx-large;
+    color: white;
+    background: linear-gradient(to right,blue,violet);
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 25px;
+}
